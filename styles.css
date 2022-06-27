@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+body{
+    background-color: rgb(62, 62, 62);
+    font-size: 16px;
+    font-weight: normal;
+    font-family:'Play', sans-serif;
+
+}
+
+.info a {
+    color: #53c7f1;
+    text-decoration: none;
+}
+
+.info a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.info a:active{
+    color: white;
+}
+
+.info a:visited{
+    color: grey;
+    text-decoration:solid;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 25%;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
+}
+
+.info {
+    margin-top: 75px;
+    background-color: #ff9a00;
+    padding: 20px;
+    border-radius: 60px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1240px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px ;
+}
+
+.info-text h4 {
+    margin-bottom: 5px;
+}
+
+/* .info-text a {
+    text-align: center;
+} */
+
+.info p{
+    color:black;
+    margin: 0;
+    font-style: inherit;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    word-spacing: normal;
+}
+
+/* .social{
+    background-color: cyan;
+    padding: 5px 20px;
+    margin: 20px;
+
+    border: 5px solid #ff9a00;
+} */
+
+.container{
+    max-width: 50%;
+    margin: auto;
+}
+
+.bg-semicyan {
+    background: #b2c8df;
+    text-align: center;
+}
+
+.bg-cyan {
+    background: #53c7f1;
+    text-align: center;
+}
+
+.bg-white {
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.card{
+    padding: 15px 20px;
+    /* background-color: cyan; */
+    margin-bottom: 20px;
+    border-radius: 60px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: black;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color: #86898f;
+}
+
+.contact h2{
+text-align: center;
+}
+
+.contact{
+    background-color: white;
+    border-radius: 60px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #53c7f1;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.button{
+    text-align: center;
+    background-color: #ff9a00;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+/* Position */
+/* .position{
+position: relative ;
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+} */
+
+.box{
+    font-family: inherit;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    background: #ff9a00;
+    text-align: center;
+    color: white;
+}
+
+.btn{
+    text-align: center;
+    display: inline-block; /* Строчно-блочный элемент */
+    background: black;
+    color: #fff; /* Белый цвет текста */
+    padding: 15px 25px; /* Поля вокруг текста */
+    margin: 5px;
+    text-decoration: none; /* Убираем подчёркивание */
+}
+
+.btn:hover{
+background-color: rgb(42, 42, 42);
+}
+
+.bottom_line{
+    background-color: #ff9a00;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+
+/* Call me html */

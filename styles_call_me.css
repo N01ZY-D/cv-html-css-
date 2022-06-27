@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+.body{
+    font-size: 16px;
+    font-weight: normal;
+    font-family:'Play', sans-serif;
+}
+
+.contact h1{
+    font-family:'Play', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.contact h2{
+    padding-top: 20px;
+    font-family:'Play', sans-serif;
+    text-align: center;
+    color: white;
+    text-align: center;
+    }
+    
+    .contact{
+        text-align: center;
+        font-family:'Play', sans-serif;
+        color: white;
+        background-color: black;
+        border-radius: 60px;
+        padding-bottom: 20px;
+    }
+    
+    .form-group label{
+        display: block;
+        font-size: 14px;
+        color: #53c7f1;
+    }
+    
+    .form-group input,
+    .form-group textarea{
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #ccc;
+        color: black;
+        padding: 15px 0 10px;
+        outline: none;
+        font-family: inherit;
+    }
+    
+    .row {
+        display: flex;
+        margin-bottom: 20px;
+    
+    }
+    
+    .row > .form-group {
+        width: 50%;
+        margin-right: 20px;
+    }
+    
+    .row > .form-group:last-child {
+        margin-right: 0;
+    }
+    
+    .button{
+        text-align: center;
+        background-color: #ff9a00;
+        color: black;
+        padding: 15px 20px;
+        border: 1px black solid;
+        font-family: inherit;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+    
+    .button:hover{
+       background-color:#b76e00;
+       color: white;
+    }
+
+    .contact-form{
+        font-family:'Play', sans-serif;
+        background-color: #ff9a00;
+        border-radius: 60px;
+        padding: 30px 30px 10px 30px;
+        margin-top: 10px;
+    }
+    
+    .form-group{
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    .main{
+        padding: 100px;
+        max-width: 75%;
+        margin: auto;
+    }
+
+    .btn{
+        border-radius: 25px;
+        text-align: center;
+        display: inline-block; /* Строчно-блочный элемент */
+        background: black;
+        color: #fff; /* Белый цвет текста */
+        padding: 15px 25px; /* Поля вокруг текста */
+        margin: 5px;
+        text-decoration: none; /* Убираем подчёркивание */
+    }
+
+.contact-form label{
+    color: white;
+}    
+
+.text-info{
+    padding: 0 20px 0 20px;
+}
