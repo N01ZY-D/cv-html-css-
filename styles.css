@@ -8,22 +8,21 @@ body{
 }
 
 .info a {
+    font-size: larger;
     color: #53c7f1;
     text-decoration: none;
+    text-shadow: 0.5px 0 0.5px #000,
+    0 0.5px 0.5px #000,
+    -0.5px 0 0.5px #000,
+    0 -0.5px 0.5px #000;
 }
 
 .info a:hover{
-    text-decoration: underline;
-    color: black;
+    color: gray;
 }
 
 .info a:active{
     color: white;
-}
-
-.info a:visited{
-    color: grey;
-    text-decoration:solid;
 }
 
 .avatar {
@@ -41,7 +40,7 @@ body{
     margin-bottom: 20px;
 }
 
-@media (max-width: 1240px){
+@media (max-width: 1325px){
     .info{
         text-align: center;
         display: block;
@@ -49,6 +48,7 @@ body{
 }
 
 .info-text {
+    margin-right: 40px;
     margin-left: 40px ;
 }
 
