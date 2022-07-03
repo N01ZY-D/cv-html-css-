@@ -9,20 +9,16 @@ body{
 
 .info a {
     font-size: larger;
-    color: #53c7f1;
+    color: white;
     text-decoration: none;
-    text-shadow: 0.5px 0 0.5px #000,
-    0 0.5px 0.5px #000,
-    -0.5px 0 0.5px #000,
-    0 -0.5px 0.5px #000;
 }
 
 .info a:hover{
-    color: gray;
+    color: #53c7f1;
 }
 
 .info a:active{
-    color: white;
+    color: #53c7f1;
 }
 
 .avatar {
